@@ -1,0 +1,18 @@
+Yes, We can overload a method with same return type but the method need to have different number of arguments.
+
+public class Method_Overload
+{
+
+  public int sum(int a , int b)
+  {
+     return(a+b);
+  }
+  public int sum(int a , int b, int c)
+  {
+     return(a+b+c);
+  }
+  public static void main(String args[])
+  {
+  
+  }
+}
